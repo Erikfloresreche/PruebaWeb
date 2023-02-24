@@ -1,0 +1,126 @@
+
+.header{
+    max-width: 100%;   
+    padding: 12px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    background-color: rgb(236, 0, 140);
+    line-height: 20px;
+    box-shadow: 2px 0.5px 3px black;
+}
+
+.welcome-page {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: oblique;
+}
+
+.menu{
+    background-color: rgb(21, 255, 0);
+    box-sizing: border-box;
+    box-shadow: 2px 0.5px 3px black;
+    line-height: 20px;
+    max-width: 100%;   
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.a-menu {
+    display: flex;
+    justify-content: space-around;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+}
+#a-kendama {
+    text-decoration: none;
+}
+#a-tutoriales {
+    text-decoration: none;
+}
+#a-competicion {
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(43, 42, 42);
+}
+a:hover {
+    color:rgb(255, 0, 153);
+}
+a:active {
+    color: rgb(255, 77, 77);
+}
+
+.container-kendamas-img {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%; 
+    box-shadow: 2 0.3px 3px black;
+}
+#img-kendama1{
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 1px 0.3px 3px black;
+}
+#img-kendama2{
+    height: 200px;
+    border-radius:50px;
+    box-shadow: 1px 0.3px 3px black;
+}
+#img-kendama3{
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 1px 0.3px 4px black;
+}
+
+.container-about {
+    margin-top: 35px;
+    display: flex;
+}
+
+h2 {
+    box-shadow: 1px 0.3px 4px black;
+    font-family: Helvetica, Arial, sans-serif;
+    color:purple;
+    text-align: center;     
+}
+.parrafo-about {
+    outline: auto;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+}
+
+.tiulo-maneras-de-jugar{
+    outline: auto;
+    display: flex;
+    justify-content: center;
+    color:rgb(173, 156, 66);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.img-maneras-de-jugar{
+    outline: auto;
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    height: 200px;
+}
+
+.titulo-competicion{
+    outline: auto;
+    display: flex;
+    justify-content: center;
+    color:rgb(173, 156, 66);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.parrafo-competicion {
+    outline: auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
